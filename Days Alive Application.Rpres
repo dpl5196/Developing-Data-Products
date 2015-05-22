@@ -1,0 +1,58 @@
+Days Alive Application  Developing Data Products - Course Project 
+========================================================
+author: Dawn LaComb
+date: May 20, 2015
+font-family: 'JUICE'
+transition: rotate
+
+
+Shiny Project Summary
+========================================================
+The course project objective was to display an understanding of the Shiny application and its use within R by writing a SIMPLE program that collected some user input and used this input to calculate something.
+
+My Shiny Application was a script that would ask the user to enter his/her date of birth in YYYY-MM-DD format and to enter the current day's date in the same YYYY-MM-DD format. When they hit submit the app displays the user inputs and calculates the number of day the user has been alive.
+
+<small><italic>As a bonus this application can also be used as a days until calculator. The user can enter any start date in the first input box in the YYYY-MM-DD format and enter an end date in the same YYYY-MM-DD format in the second format box and hit submit. When they hit submit the app displays the user inputs and calculates the number of day between the two dates.</italic></small>
+
+Project Details
+========================================================
+incremental: true
+Data Input
+
+All you need is your birthday and today's date.
+- If you were born on July 10, 1969 you would enter 1969-07-10.
+- If todays date is May 20,2015 you would enter 2015-05-20. 
+
+Data Output
+
+Based on an input of 1969-07-10, the program would calculate the time difference is 16750 days. Which means you are 16750 days old.
+
+Alternate use of App as a Days until Calculater
+========================================================
+
+Say you wanted to know how many days until a big vacation planned for July 2016.<br>
+
+Data Input
+
+All you need is todays date and ending date.
+- If todays date is May 20,2015 you would enter 2015-05-20. 
+- If your vacation starts on July 27,2016 you would enter 2016-07-27.
+
+Data Output 
+
+Based on an input dates, the program would calculate the time difference of 434 days until your vacation starts.</small>
+
+
+
+Where to find my Shiny App
+========================================================
+
+My Shiny App can be found at https://ds1764.shinyapps.io/shinyapp/ .
+
+
+```{r, echo=TRUE}
+x <- "Thank you for your time. This concludes my presentation"
+print(x)
+
+```
+
